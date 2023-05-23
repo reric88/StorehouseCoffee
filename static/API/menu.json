@@ -1,0 +1,162 @@
+{
+    "bakedGoods": {
+        "muffins": [
+            {
+                "id": "1",
+                "name": "Blueberry Muffin",
+                "description": "A classic muffin with juicy blueberries.",
+                "price": 3
+            },
+            {
+                "id": "2",
+                "name": "Double Chocolate Muffin",
+                "description": "A delicious muffin loaded with chocolate chips.",
+                "price": 3
+            },
+            {
+                "id": "3",
+                "name": "Banana Nut Muffin",
+                "description": "A delicious muffin baked with banana slices and nuts.",
+                "price": 3
+            },
+            {
+                "id": "4",
+                "name": "Cinnamon Crunch Muffin",
+                "description": "A delicious muffin dusted with cinnamon and crunch.",
+                "price": 3
+            }
+        ],
+        "cinnamonRoll": [
+            {
+                "id": "1",
+                "name": "Cinnamon Roll",
+                "description": "A classic cinnamon roll with glaze.",
+                "price": 4
+            }
+        ],
+        "danish": [
+            {
+                "id": "1",
+                "name": "Cheese Danish",
+                "description": "A creamy cheese danish.",
+                "price": 3
+            },
+            {
+                "id": "2",
+                "name": "Cherry Danish",
+                "description": "A cherry danish.",
+                "price": 3
+            },
+            {
+                "id": "3",
+                "name": "Apple Danish",
+                "description": "An apple danish.",
+                "price": 3
+            }
+        ]
+    },
+    
+    "charcuterie": {
+        "small": [],
+        "large": [],
+        "xl": [],
+        "xxl": []
+    },
+
+
+    "coffee": {
+        "brewed": [{
+            "size": {
+                "small": 1.99,
+                "medium": 2.43,
+                "large": 3.18
+            },
+            "roast": [
+                "Light Brew", 
+                "Medium brew", 
+                "Dark brew"
+            ]
+        }],
+        "coldBrew": [{
+            "size": {
+                "small": 4.76,
+                "medium": 5.00,
+                "large": 5.26
+            }
+        }],
+        "pourOver": [{
+            "size": {
+                "small": 3.50,
+                "medium": 3.80,
+                "large": 4.30
+            },
+            "roast": [
+                "Light Brew", 
+                "Medium brew", 
+                "Dark brew"
+            ],
+            "type": [
+                "Iced", 
+                "Hot"
+            ]
+        }],
+        "icedCoffee": [{
+            "size": {
+                "small": 3.85,
+                "medium": 4.35,
+                "large": 4.85
+            },
+            "roast": [
+                "Light Brew", 
+                "Medium brew", 
+                "Dark brew"
+            ]
+        }]
+    },
+
+    "espresso": {
+        "flavor": {
+            "americano": [],
+            "cappuccino": [],
+            "caramelMacchiato": [],
+            "dirtyChai": [],
+            "espressoShot": [],
+            "frappe": [],
+            "latte": [],
+            "mocha": [],
+            "proteinLatte": [],
+            "redEye": [],
+            "chocolateMacchiato": [],
+            "saltedCaramelMacchiato": [],
+            "peppermintMocha": []
+        },
+
+    "otherDrinks": {
+        "type": {
+            "bottledWater": [],
+            "cannedDrink": [],
+            "caramelAppleSpice": [],
+            "chaiTea": [],
+            "cider": [],
+            "frozenHotChocolate": [],
+            "hotChocolate": [],
+            "hotTea": [],
+            "italianCreamSoda": [],
+            "londonFrog": [],
+            "lotus": [],
+            "milk": [],
+            "steamer": [],
+            "smoothie": [],
+            "cupWater": [],
+            "storehouseRefresher": [],
+            "pinkPotion": []
+        }
+    }
+
+
+    }
+
+
+
+
+}
