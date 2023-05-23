@@ -53,5 +53,5 @@ navLinks.forEach(link=>{
 // #endregion
 
 async function getMenu(){
-    const url = '../API/menu.json'
+    const url = '../../db.json'
 }
