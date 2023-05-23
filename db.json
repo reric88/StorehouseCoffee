@@ -73,7 +73,7 @@
             },
             "roast": [
                 "Light Brew", 
-                "Medium brew", 
+                "Medium brew",
                 "Dark brew"
             ]
         }],
@@ -129,8 +129,10 @@
             "chocolateMacchiato": [],
             "saltedCaramelMacchiato": [],
             "peppermintMocha": []
-        },
+        }
 
+    },
+    
     "otherDrinks": {
         "type": {
             "bottledWater": [],
@@ -154,7 +156,6 @@
     }
 
 
-    }
 
 
 

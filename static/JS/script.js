@@ -53,5 +53,9 @@ navLinks.forEach(link=>{
 // #endregion
 
 async function getMenu(){
-    const url = '../../db.json'
+    const url = `https://my-json-server.typicode.com/reric88/StorehouseCoffee/db`
+    const menu = await axios.get(url);
+    console.log(menu);
 }
+
+getMenu()
