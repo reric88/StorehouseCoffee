@@ -1,6 +1,11 @@
 const backgrounds = document.querySelector('#backgrounds')
 const navbar = document.querySelector('#navbar')
 const navLinks = document.querySelectorAll('.navbar-link')
+const menuContent = document.querySelector('#menu-content')
+const shopContent = document.querySelector('#shop-content')
+const cateringContent = document.querySelector('#catering-content')
+const aboutContent = document.querySelector('#about-content')
+const cartContent = document.querySelector('#cart-content')
 
 // #region navbar
 navLinks.forEach(link=>{
@@ -55,7 +60,18 @@ navLinks.forEach(link=>{
 async function getMenu(){
     const url = `https://my-json-server.typicode.com/reric88/StorehouseCoffee/db`
     const menu = await axios.get(url);
+    const baked = menu.data.bakedGoods
+    const coffee = menu.data.coffee
     console.log(menu);
+    menuContent.innerHTML = `
+    <h1>${baked.muffins[0].name}</h1>
+    `
+    coffee.brewed.forEach(type=>{
+        console.log(type.size, type.roast);
+    })
+    // console.log(coffee.brewed);
+
 }
+
 
 getMenu()

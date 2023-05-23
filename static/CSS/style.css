@@ -142,6 +142,10 @@ nav a:last-child {
     margin-left: auto;
 }
 
+#menu-content h1 {
+    color: white;
+}
+
 /* #region header */
 header {
     display: none;

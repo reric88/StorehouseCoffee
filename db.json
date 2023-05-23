@@ -64,55 +64,98 @@
     },
 
 
-    "coffee": {
-        "brewed": [{
-            "size": {
-                "small": 1.99,
-                "medium": 2.43,
-                "large": 3.18
+    "beverage": {
+        "coffee": [
+            {
+                "id": "1",
+                "name": "Brewed",
+                "description": "Hot Coffee",
+                "roast": ["Light Brew", "Medium brew", "Dark brew"],
+                "size": ["Small", "Medium", "Large"],
+                "price": [1.99, 2.43, 3.18]
             },
-            "roast": [
-                "Light Brew", 
-                "Medium brew",
-                "Dark brew"
-            ]
-        }],
-        "coldBrew": [{
-            "size": {
-                "small": 4.76,
-                "medium": 5.00,
-                "large": 5.26
+            {
+                "id": "2",
+                "name": "Cold Brew",
+                "description": "Cold Coffee",
+                "roast": ["Light Brew", "Medium brew", "Dark brew"],
+                "size": ["Small", "Medium", "Large"],
+                "price": [4.76, 5.00, 5.26]
+            },
+            {
+                "id": "3",
+                "name": "Pour Over",
+                "description": "Iced or Hot Coffee poured over ice",
+                "roast": ["Light Brew", "Medium brew", "Dark brew"],
+                "size": ["Small", "Medium", "Large"],
+                "price": [3.50, 3.80, 4.30]
+            },
+            {
+                "id": "4",
+                "name": "Iced Coffee",
+                "description": "Iced Coffee",
+                "roast": ["Light Brew", "Medium brew", "Dark brew"],
+                "size": ["Small", "Medium", "Large"],
+                "price": [3.85, 4.35, 4.85]
             }
-        }],
-        "pourOver": [{
-            "size": {
-                "small": 3.50,
-                "medium": 3.80,
-                "large": 4.30
-            },
-            "roast": [
-                "Light Brew", 
-                "Medium brew", 
-                "Dark brew"
-            ],
-            "type": [
-                "Iced", 
-                "Hot"
-            ]
-        }],
-        "icedCoffee": [{
-            "size": {
-                "small": 3.85,
-                "medium": 4.35,
-                "large": 4.85
-            },
-            "roast": [
-                "Light Brew", 
-                "Medium brew", 
-                "Dark brew"
-            ]
-        }]
-    },
+        ],
+
+
+
+
+
+
+
+
+    // "coffee": {
+    //     "brewed": [{
+    //         "size": {
+    //             "small": 1.99,
+    //             "medium": 2.43,
+    //             "large": 3.18
+    //         },
+    //         "roast": [
+    //             "Light Brew", 
+    //             "Medium brew",
+    //             "Dark brew"
+    //         ]
+    //     }],
+    //     "coldBrew": [{
+    //         "size": {
+    //             "small": 4.76,
+    //             "medium": 5.00,
+    //             "large": 5.26
+    //         }
+    //     }],
+    //     "pourOver": [{
+    //         "size": {
+    //             "small": 3.50,
+    //             "medium": 3.80,
+    //             "large": 4.30
+    //         },
+    //         "roast": [
+    //             "Light Brew", 
+    //             "Medium brew", 
+    //             "Dark brew"
+    //         ],
+    //         "type": [
+    //             "Iced", 
+    //             "Hot"
+    //         ]
+    //     }],
+    //     "icedCoffee": [{
+    //         "size": {
+    //             "small": 3.85,
+    //             "medium": 4.35,
+    //             "large": 4.85
+    //         },
+    //         "roast": [
+    //             "Light Brew", 
+    //             "Medium brew", 
+    //             "Dark brew"
+    //         ]
+    //     }]
+    // },
 
     "espresso": {
         "flavor": {
@@ -132,7 +175,7 @@
         }
 
     },
-    
+
     "otherDrinks": {
         "type": {
             "bottledWater": [],
