@@ -1,206 +1,231 @@
 {
-    "bakedGoods": {
-        "muffins": [
-            {
-                "id": "1",
-                "name": "Blueberry Muffin",
-                "description": "A classic muffin with juicy blueberries.",
-                "price": 3
-            },
-            {
-                "id": "2",
-                "name": "Double Chocolate Muffin",
-                "description": "A delicious muffin loaded with chocolate chips.",
-                "price": 3
-            },
-            {
-                "id": "3",
-                "name": "Banana Nut Muffin",
-                "description": "A delicious muffin baked with banana slices and nuts.",
-                "price": 3
-            },
-            {
-                "id": "4",
-                "name": "Cinnamon Crunch Muffin",
-                "description": "A delicious muffin dusted with cinnamon and crunch.",
-                "price": 3
-            }
-        ],
-        "cinnamonRoll": [
-            {
-                "id": "1",
-                "name": "Cinnamon Roll",
-                "description": "A classic cinnamon roll with glaze.",
-                "price": 4
-            }
-        ],
-        "danish": [
-            {
-                "id": "1",
-                "name": "Cheese Danish",
-                "description": "A creamy cheese danish.",
-                "price": 3
-            },
-            {
-                "id": "2",
-                "name": "Cherry Danish",
-                "description": "A cherry danish.",
-                "price": 3
-            },
-            {
-                "id": "3",
-                "name": "Apple Danish",
-                "description": "An apple danish.",
-                "price": 3
-            }
-        ]
-    },
-    
-    "charcuterie": {
-        "small": [],
-        "large": [],
-        "xl": [],
-        "xxl": []
-    },
+  "bakedGoods": {
+    "muffins": [
+      {
+        "id": "1",
+        "name": "Blueberry Muffin",
+        "description": "A classic muffin with juicy blueberries.",
+        "price": 3
+      },
+      {
+        "id": "2",
+        "name": "Double Chocolate Muffin",
+        "description": "A delicious muffin loaded with chocolate chips.",
+        "price": 3
+      },
+      {
+        "id": "3",
+        "name": "Banana Nut Muffin",
+        "description": "A delicious muffin baked with banana slices and nuts.",
+        "price": 3
+      },
+      {
+        "id": "4",
+        "name": "Cinnamon Crunch Muffin",
+        "description": "A delicious muffin dusted with cinnamon and crunch.",
+        "price": 3
+      }
+    ],
+    "cinnamonRoll": [
+      {
+        "id": "1",
+        "name": "Cinnamon Roll",
+        "description": "A classic cinnamon roll with glaze.",
+        "price": 4
+      }
+    ],
+    "danish": [
+      {
+        "id": "1",
+        "name": "Cheese Danish",
+        "description": "A creamy cheese danish.",
+        "price": 3
+      },
+      {
+        "id": "2",
+        "name": "Cherry Danish",
+        "description": "A cherry danish.",
+        "price": 3
+      },
+      {
+        "id": "3",
+        "name": "Apple Danish",
+        "description": "An apple danish.",
+        "price": 3
+      }
+    ]
+  },
 
+  "charcuterie": {
+    "small": [],
+    "large": [],
+    "xl": [],
+    "xxl": []
+  },
 
-    "beverage": {
-        "coffee": [
-            {
-                "id": "1",
-                "name": "Brewed",
-                "description": "Hot Coffee",
-                "roast": ["Light Brew", "Medium brew", "Dark brew"],
-                "size": ["Small", "Medium", "Large"],
-                "price": [1.99, 2.43, 3.18]
-            },
-            {
-                "id": "2",
-                "name": "Cold Brew",
-                "description": "Cold Coffee",
-                "roast": ["Light Brew", "Medium brew", "Dark brew"],
-                "size": ["Small", "Medium", "Large"],
-                "price": [4.76, 5.00, 5.26]
-            },
-            {
-                "id": "3",
-                "name": "Pour Over",
-                "description": "Iced or Hot Coffee poured over ice",
-                "roast": ["Light Brew", "Medium brew", "Dark brew"],
-                "size": ["Small", "Medium", "Large"],
-                "price": [3.50, 3.80, 4.30]
-            },
-            {
-                "id": "4",
-                "name": "Iced Coffee",
-                "description": "Iced Coffee",
-                "roast": ["Light Brew", "Medium brew", "Dark brew"],
-                "size": ["Small", "Medium", "Large"],
-                "price": [3.85, 4.35, 4.85]
-            }
-        ],
+  "beverage": {
+    "coffee": [
+      {
+        "id": "1",
+        "name": "Brewed",
+        "description": "Hot Coffee",
+        "roast": ["Light Brew", "Medium brew", "Dark brew"],
+        "size": ["Small", "Medium", "Large"],
+        "price": [1.99, 2.43, 3.18]
+      },
+      {
+        "id": "2",
+        "name": "Cold Brew",
+        "description": "Cold Coffee",
+        "roast": ["Light Brew", "Medium brew", "Dark brew"],
+        "size": ["Small", "Medium", "Large"],
+        "price": [4.76, 5.0, 5.26]
+      },
+      {
+        "id": "3",
+        "name": "Pour Over",
+        "description": "Iced or Hot Coffee poured over ice",
+        "roast": ["Light Brew", "Medium brew", "Dark brew"],
+        "size": ["Small", "Medium", "Large"],
+        "price": [3.5, 3.8, 4.3]
+      },
+      {
+        "id": "4",
+        "name": "Iced Coffee",
+        "description": "Iced Coffee",
+        "roast": ["Light Brew", "Medium brew", "Dark brew"],
+        "size": ["Small", "Medium", "Large"],
+        "price": [3.85, 4.35, 4.85]
+      }
+    ],
 
-
-
-
-
-
-
-
-    // "coffee": {
-    //     "brewed": [{
-    //         "size": {
-    //             "small": 1.99,
-    //             "medium": 2.43,
-    //             "large": 3.18
-    //         },
-    //         "roast": [
-    //             "Light Brew", 
-    //             "Medium brew",
-    //             "Dark brew"
-    //         ]
-    //     }],
-    //     "coldBrew": [{
-    //         "size": {
-    //             "small": 4.76,
-    //             "medium": 5.00,
-    //             "large": 5.26
-    //         }
-    //     }],
-    //     "pourOver": [{
-    //         "size": {
-    //             "small": 3.50,
-    //             "medium": 3.80,
-    //             "large": 4.30
-    //         },
-    //         "roast": [
-    //             "Light Brew", 
-    //             "Medium brew", 
-    //             "Dark brew"
-    //         ],
-    //         "type": [
-    //             "Iced", 
-    //             "Hot"
-    //         ]
-    //     }],
-    //     "icedCoffee": [{
-    //         "size": {
-    //             "small": 3.85,
-    //             "medium": 4.35,
-    //             "large": 4.85
-    //         },
-    //         "roast": [
-    //             "Light Brew", 
-    //             "Medium brew", 
-    //             "Dark brew"
-    //         ]
-    //     }]
-    // },
-
-    "espresso": {
-        "flavor": {
-            "americano": [],
-            "cappuccino": [],
-            "caramelMacchiato": [],
-            "dirtyChai": [],
-            "espressoShot": [],
-            "frappe": [],
-            "latte": [],
-            "mocha": [],
-            "proteinLatte": [],
-            "redEye": [],
-            "chocolateMacchiato": [],
-            "saltedCaramelMacchiato": [],
-            "peppermintMocha": []
+    "espresso": [
+        {
+            "id": "1",
+            "name": "Americano",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [3, 3.53, 4]
+        },
+        {
+            "id": "2",
+            "name": "Cappuccino",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [4.95, 5.25, 5.95]
+        },
+        {
+            "id": "3",
+            "name": "Caramel Macchiato",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [4.95, 5.45, 5.95]
+        },
+        {
+            "id": "4",
+            "name": "Dirty Chai",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [5.45, 6.13, 6.48]
+        },
+        {
+            "id": "5",
+            "name": "Espresso Shot",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["1 Shot", "2 Shots", "3 Shots"],
+            "price": [2.50, 3, 3.25]
+        },
+        {
+            "id": "6",
+            "name": "Frappe",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [5.5, 6, 6.5]
+        },
+        {
+            "id": "7",
+            "name": "Latte",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [4.4, 4.9, 5.4]
+        },
+        {
+            "id": "8",
+            "name": "Mocha",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [4.95, 5.45, 5.95]
+        },
+        {
+            "id": "9",
+            "name": "Protein Latte",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["One Size"],
+            "price": [5.25]
+        },
+        {
+            "id": "10",
+            "name": "Red Eye",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [3.35, 3.65, 4.25]
+        },
+        {
+            "id": "11",
+            "name": "Chocolate Macchiato",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [4.95, 5.45, 5.95]
+        },
+        {
+            "id": "12",
+            "name": "Salted Caramel Macchiato",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [4.95, 5.45, 5.95]
+        },
+        {
+            "id": "13",
+            "name": "Peppermint Mocha",
+            "description": "",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [4.95, 5.45, 5.95]
         }
-
-    },
+    ],
 
     "otherDrinks": {
-        "type": {
-            "bottledWater": [],
-            "cannedDrink": [],
-            "caramelAppleSpice": [],
-            "chaiTea": [],
-            "cider": [],
-            "frozenHotChocolate": [],
-            "hotChocolate": [],
-            "hotTea": [],
-            "italianCreamSoda": [],
-            "londonFrog": [],
-            "lotus": [],
-            "milk": [],
-            "steamer": [],
-            "smoothie": [],
-            "cupWater": [],
-            "storehouseRefresher": [],
-            "pinkPotion": []
-        }
+      "type": {
+        "bottledWater": [],
+        "cannedDrink": [],
+        "caramelAppleSpice": [],
+        "chaiTea": [],
+        "cider": [],
+        "frozenHotChocolate": [],
+        "hotChocolate": [],
+        "hotTea": [],
+        "italianCreamSoda": [],
+        "londonFrog": [],
+        "lotus": [],
+        "milk": [],
+        "steamer": [],
+        "smoothie": [],
+        "cupWater": [],
+        "storehouseRefresher": [],
+        "pinkPotion": []
+      }
     }
-
-
-
-
-
-
+  }
 }
