@@ -206,7 +206,38 @@
         }
     ],
 
-    "otherDrinks": {
+    "otherDrinks": [
+        {
+            "id": "1",
+            "name": "Bottled Water",
+            "description": "Bottle of Water",
+            "size": ["One size"],
+            "price": [1.5]
+        },
+        {
+            "id": "2",
+            "name": "Canned Drink",
+            "description": "Coke, Coke Zero, Sprite & Dr. Pepper",
+            "size": ["One size"],
+            "price": [1]
+        },
+        {
+            "id": "3",
+            "name": "Caramel Apple Spice",
+            "description": "Hot or cold caramel drink with apple spice",
+            "temp": ["Hot", "Cold"],
+            "size": ["Small", "Medium", "Large"],
+            "price": [4.4, 4.9, 5.4],
+            "shot": ["Add One", "Add Two", "Add Three"],
+            "shotPrice": [0.75, 1.25, 1.75]
+        },
+        {
+            "id": "4",
+            "name": "Chai Tea",
+            "description": "Brewed Chai Tea",
+            "size": ["Small", "Medium", "Large"],
+            "price": [4.95, 5.63, 5.98]
+        },
         {
             "id": "",
             "name": "",
@@ -214,7 +245,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "bottledWater": [],
+        
         {
             "id": "",
             "name": "",
@@ -222,7 +253,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "cannedDrink": [],
+        
         {
             "id": "",
             "name": "",
@@ -230,7 +261,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "caramelAppleSpice": [],
+       
         {
             "id": "",
             "name": "",
@@ -238,7 +269,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "chaiTea": [],
+        
         {
             "id": "",
             "name": "",
@@ -246,7 +277,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "cider": [],
+        
         {
             "id": "",
             "name": "",
@@ -254,7 +285,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "frozenHotChocolate": [],
+       
         {
             "id": "",
             "name": "",
@@ -262,7 +293,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "hotChocolate": [],
+        
         {
             "id": "",
             "name": "",
@@ -270,7 +301,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "hotTea": [],
+        
         {
             "id": "",
             "name": "",
@@ -278,7 +309,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "italianCreamSoda": [],
+       
         {
             "id": "",
             "name": "",
@@ -286,7 +317,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "londonFrog": [],
+       
         {
             "id": "",
             "name": "",
@@ -294,7 +325,7 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "lotus": [],
+       
         {
             "id": "",
             "name": "",
@@ -302,47 +333,16 @@
             "size": ["Small", "Medium", "Large"],
             "price": []
         },
-        "milk": [],
+        
         {
             "id": "",
             "name": "",
             "description": "",
             "size": ["Small", "Medium", "Large"],
             "price": []
-        },
-        "steamer": [],
-        {
-            "id": "",
-            "name": "",
-            "description": "",
-            "size": ["Small", "Medium", "Large"],
-            "price": []
-        },
-        "smoothie": [],
-        {
-            "id": "",
-            "name": "",
-            "description": "",
-            "size": ["Small", "Medium", "Large"],
-            "price": []
-        },
-        "cupWater": [],
-        {
-            "id": "",
-            "name": "",
-            "description": "",
-            "size": ["Small", "Medium", "Large"],
-            "price": []
-        },
-        "storehouseRefresher": [],
-        {
-            "id": "",
-            "name": "",
-            "description": "",
-            "size": ["Small", "Medium", "Large"],
-            "price": []
-        },
-        "pinkPotion": []
-      }
+        }
+        
+      ]
   }
+  
 }

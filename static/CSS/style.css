@@ -98,13 +98,30 @@ body {
 }
 
 .about-bg {
-    background-image: url('../Images/moormanExtended.png');
+    background-image: url('../Images/storehouse5.jpg');
     transition: opacity 300ms;
     /* opacity: .6; */
-    background-size: 75%;
+    position: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     /* opacity: .5; */
+}
+
+/* @media (width < 800px) {
+    .about-bg {
+        background-size: auto cover;
+        position: fixed;
+    }
+} */
+
+/* #region about-bg with old photo */
+/* .about-bg {
+    background-image: url('../Images/moormanExtended.png');
+    transition: opacity 300ms;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position:center;
 }
 
 .about-bg::before {
@@ -118,9 +135,9 @@ body {
     z-index: -1;
     filter: blur(6px);
     background-image: url('../Images/moormanExtended.png');
+} */
+/* #endregion */
 
-
-}
 
 .cart-bg {
     background-image: url('../Images/storehouse3.jpg');
@@ -309,6 +326,22 @@ nav a:last-child {
     padding: 0 2rem;
     transition: transform 200ms ease;
 }
+
+/* With old photo */
+/* #about-content {
+    width: 50%;
+    top: 10rem;
+    background-color: #111a;
+    color: var(--cream);
+    font-family: var(--secondary-font);
+    border: 1rem solid #000a;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+    transition: transform 200ms ease;
+} */
 
 #about-content h2 {
     margin-top: 0;
