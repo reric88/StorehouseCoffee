@@ -7,26 +7,55 @@
     font-size: 62.5%;
     --gold: #ffd21e;
     /* --gold: #BB9C21; */
-    --brown: #734D36;
+    --hours: #734D36e0;
     --cream: #EFE6DD;
     --black: #111;
     --white: #fff;
+    --content-bg: #fff8; 
     --main-font: 'Imbue', serif;
     --secondary-font: 'Poppins', sans-serif;
     --tertiary-font: 'Noto Serif Display', serif;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 4rem;
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+h6 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
 }
 
 body {
     background-color: #111;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #backgrounds {
-    position: relative;
     width: 100%;
     height: 100%;
+    z-index: 0;
 }
 
 .fade {
@@ -69,12 +98,27 @@ body {
 }
 
 .about-bg {
-    background-image: url('../Images/storehouse5.jpg');
+    background-image: url('../Images/moormanExtended.png');
     transition: opacity 300ms;
     /* opacity: .6; */
-    background-size: cover;
-    background-position: center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position:center;
     /* opacity: .5; */
+}
+
+.about-bg::before {
+    content: '';
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(6px);
+    background-image: url('../Images/moormanExtended.png');
+
 
 }
 
@@ -84,6 +128,18 @@ body {
     /* opacity: .6; */
     background-size: cover;
     background-position-y: 70%;
+    /* opacity: .5; */
+
+}
+
+.hours-bg {
+    background-image: url('../Images/storehouse1.jpg');
+    transition: opacity 300ms;
+    /* opacity: .6; */
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 40%;
     /* opacity: .5; */
 
 }
@@ -105,6 +161,7 @@ nav {
     justify-content: center;
     align-items: center;
     font-family: var(--secondary-font);
+    z-index: 100;
 }
 
 nav a h3 {
@@ -142,9 +199,166 @@ nav a:last-child {
     margin-left: auto;
 }
 
-#menu-content h1 {
+#content-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content-not-visible {
+    transform: translateX(200rem);
+    transition: transform 300ms ease;
+}
+
+.content-not-visible {
+}
+
+.main-content {
+    position: absolute;
+    box-shadow: 0 1rem 3rem 1rem #111;
+}
+
+#hours-content {
+    width: 90rem;
+    min-height: 50%;
+    margin-top: 5rem;
+    background-color: var(--hours);
+    color: var(--cream);
+    font-family: var(--secondary-font);
+    border: 1rem solid var(--cream);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    transition: transform 300ms ease;
+}
+
+#menu-content {
+    min-width: 50%;
+    min-height: 50%;
+    margin-top: 5rem;
+    background-color: #fff8;
+    color: var(--cream);
+    font-family: var(--secondary-font);
+    border: 1rem solid #fffa;
+    /* outline: 1rem double white; */
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    transition: transform 200ms ease;
+    
+}
+
+#shop-content {
+    min-width: 50%;
+    min-height: 50%;
+    margin-top: 5rem;
+    background-color: #BFAC99aa;
+    color: var(--cream);
+    font-family: var(--secondary-font);
+    border: 1rem solid #654a;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    transition: transform 200ms ease;
+
+}
+
+#catering-content {
+    min-width: 50%;
+    min-height: 50%;
+    margin-top: 5rem;
+    background-color: #9FD5ECaa;
+    color: var(--cream);
+    font-family: var(--secondary-font);
+    border: 1rem solid #143A4Caa;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    transition: transform 200ms ease;
+
+}
+
+#about-content {
+    width: 50%;
+    top: 10rem;
+    /* margin-left: 15rem; */
+    /* height: 50%; */
+    /* top: 10rem; */
+    background-color: #111a;
+    color: var(--cream);
+    font-family: var(--secondary-font);
+    border: 1rem solid #000a;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+    transition: transform 200ms ease;
+}
+
+#about-content h2 {
+    margin-top: 0;
+    font-family: var(--tertiary-font);
+    font-weight: 900;
     color: white;
 }
+
+#about-content p {
+    font-size: 2rem;
+    text-indent: 5rem;
+    margin: 1rem 0;
+}
+
+#about-content h5 {
+    font-family: var(--tertiary-font);
+    font-weight: 300;
+    font-size: 5rem;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+#about-content p span {
+    font-size: 4rem;
+}
+
+#about-content p em {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--tertiary-font);
+}
+
+#cart-content {
+    min-width: 50%;
+    min-height: 50%;
+    margin-top: 5rem;
+    background-color: var(--hours);
+    color: var(--cream);
+    font-family: var(--secondary-font);
+    border: 1rem solid var(--cream);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    transition: transform 200ms ease;
+
+}
+
+
 
 /* #region header */
 header {
@@ -211,7 +425,7 @@ h4 {
 #hours-container {
     width: 75rem;
     height: 80rem;
-    background-color: var(--brown);
+    background-color: var(--hours);
     color: var(--cream);
     font-family: var(--secondary-font);
     border: 1rem solid var(--cream);
@@ -225,10 +439,12 @@ h4 {
 
 .hours-days {
     font-weight: 100;
+    font-size: 4rem;
 }
 
 #hours-title {
     text-transform: uppercase;
+    font-size: 4rem;
     font-weight: 300;
     letter-spacing: 1rem;
 }
@@ -239,7 +455,7 @@ h4 {
     padding: 1rem 2rem;
     margin: 2rem 0;
     background-color: var(--cream);
-    color: var(--brown);
+    color: var(--hours);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,6 +463,7 @@ h4 {
 
 #hours-div h4 {
     text-transform: uppercase;
+    font-size: 4rem;
     font-weight: 300;
 }
 
@@ -255,5 +472,4 @@ h4 {
     font-size: 7rem;
     font-weight: 900;
 }
-
 /* #endregion */

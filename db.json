@@ -207,25 +207,142 @@
     ],
 
     "otherDrinks": {
-      "type": {
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "bottledWater": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "cannedDrink": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "caramelAppleSpice": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "chaiTea": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "cider": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "frozenHotChocolate": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "hotChocolate": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "hotTea": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "italianCreamSoda": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "londonFrog": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "lotus": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "milk": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "steamer": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "smoothie": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "cupWater": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "storehouseRefresher": [],
+        {
+            "id": "",
+            "name": "",
+            "description": "",
+            "size": ["Small", "Medium", "Large"],
+            "price": []
+        },
         "pinkPotion": []
       }
-    }
   }
 }
